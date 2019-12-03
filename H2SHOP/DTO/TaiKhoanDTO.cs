@@ -76,6 +76,7 @@ namespace DTO
         {
             LaAdmin = false;
             TrangThai = true;
+            AnhDaiDien = "";
         }
     }
 }
