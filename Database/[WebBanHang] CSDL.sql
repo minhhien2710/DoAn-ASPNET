@@ -1,4 +1,6 @@
-﻿CREATE DATABASE WebBanHang;
+﻿DROP DATABASE WebBanHang;
+
+CREATE DATABASE WebBanHang;
 GO
 
 USE WebBanHang;
