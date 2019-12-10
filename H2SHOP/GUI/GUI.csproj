@@ -96,6 +96,7 @@
   <ItemGroup>
     <Content Include="DangKi.aspx" />
     <Content Include="DangNhap.aspx" />
+    <Content Include="GioHang.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -129,6 +130,13 @@
     </Compile>
     <Compile Include="DangNhap.aspx.designer.cs">
       <DependentUpon>DangNhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GioHang.aspx.cs">
+      <DependentUpon>GioHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GioHang.aspx.designer.cs">
+      <DependentUpon>GioHang.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
