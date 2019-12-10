@@ -40,7 +40,7 @@
                                                     <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
                                                 </div>
                                                 <div class="buttons-set">
-                                                    <asp:Button ID="btnCreate" runat="server" Text="Create an Account" OnClick="btnCreate_Click" />
+                                                    <asp:Button ID="btnCreate" CssClass="btn btn-danger" runat="server" Text="Create an Account" OnClick="btnCreate_Click" />
                                                 </div>
                                             </div>
                                             <div class="col-2 registered-users">
@@ -85,12 +85,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                   
-                                    
-                                </div><!-- /.account-login -->
+                                    </div><!-- /.account-login -->
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                
             </div><!-- /.em-wrapper-main -->
+    </div>
 </asp:Content>

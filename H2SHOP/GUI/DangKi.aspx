@@ -112,12 +112,11 @@
                                             <asp:Button ID="btnDangKi" CssClass="btn btn-danger" runat="server" Text="Submit" OnClick="btnDangKi_Click" />
                                             <p class="required">* Required Fields</p>
                                         </div>
-                                  
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div><!-- /.em-wrapper-main -->
+            </div><!-- /.em-wrapper-main -->
 </asp:Content>
